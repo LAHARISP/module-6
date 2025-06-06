@@ -22,6 +22,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "lib/db.js", "app/api/facultylist/route.js", "app/api/subjectlist-facultyallocation/route.js", "app/api/allocate-subject-faculty/route.js", "app/api/view-faculty-allocation/route.js", "app/api/update-faculty-subject/route.js", "app/api/delete-faculty-allocation/route.js", "app/api/db/route.js", "app/api/users/route.js", "app/api/subjectmapping/route.js", "app/api/subjectlistmastertable/route.js", "app/api/subjectlist-coursereg/route.js", "app/api/registered-subjects/route.js", "app/api/register/route.js", "app/api/mentorallocation/route.js", "app/api/getStudentDetails/route.js", "app/api/branch/route.js", "app/api/allocate-subject-reg/route.js", "app/api/addnewsubjects/route.js"],
   "exclude": ["node_modules"]
 }
